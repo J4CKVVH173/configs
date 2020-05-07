@@ -1,0 +1,82 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "class-property",
+    "react-hooks",
+    "require-jsdoc-except"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "class-property/class-property-semicolon": [ "error", "never" ],
+    "guard-for-in": "off",
+    "import/extensions": "off",
+    "import/named": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "jsx-a11y/interactive-supports-focus": "off",
+    "jsx-a11y/media-has-caption": "off",
+    "jsx-a11y/no-noninteractive-element-to-interactive-role": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/tabindex-no-positive": "off",
+    "linebreak-style": 0,
+    "max-len": [ 1, 120, 4 ],
+    "no-console": "error",
+    "no-extra-boolean-cast": "off",
+    "no-extra-semi": "error",
+    "no-labels": "off",
+    "no-param-reassign": "off",
+    "no-restricted-globals": "off",
+    "no-restricted-syntax": "off",
+    "no-return-await": "off",
+    "no-throw-literal": "off",
+    "no-trailing-spaces": "off",
+    "no-underscore-dangle": [ "error", { "allowAfterThis": true } ],
+    "no-unused-expressions": "off",
+    "no-unused-labels": "off",
+    "object-curly-newline": "off",
+    "operator-linebreak": "off",
+    "prefer-destructuring": [ "error", { "object": true, "array": false } ],
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/destructuring-assignment": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-tag-spacing": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/no-array-index-key": "off",
+    "react/no-did-update-set-state": "off",
+    "react/no-unknown-property": "off",
+    "react/no-unused-prop-types": "off",
+    "react/state-in-constructor": "off",
+    "react/static-property-placement": "off",
+    "require-jsdoc-except/require-jsdoc": [
+      "error",
+      {
+        "require": {
+          "ArrowFunctionExpression": true,
+          "ClassDeclaration": true,
+          "FunctionDeclaration": true,
+          "FunctionExpression": true,
+          "MethodDefinition": true
+        },
+        "ignore": [
+          "componentDidMount",
+          "componentDidUpdate",
+          "componentWillUnmount",
+          "constructor",
+          "getDerivedStateFromProps",
+          "getSnapshotBeforeUpdate",
+          "render",
+          "shouldComponentUpdate"
+        ]
+      }
+    ]
+  }
+}
