@@ -1,5 +1,5 @@
 [flake8]
-exclude = .git, __pycache__, migrations ,fixtures, wsgi.py, env, .idea, manage.py, settings.py,
-          urls.py, managers.py, __init__.py, settings_dev.py, venv, tools, apps.py
+exclude = .git, __pycache__, migrations ,fixtures, wsgi.py, env, venv, .idea, manage.py, settings.py,
+	urls.py, managers.py, __init__.py, settings_dev.py
 max-line-length = 120
-ignore: D106, D104, D105, F401, D202, I100, I101, I201, Q000, A003, A001
+ignore: D106, D104, D105, D107, I100, I201
