@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if find "src/components" -mindepth 1; then
+  npm run lint
+fi

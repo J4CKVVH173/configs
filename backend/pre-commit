@@ -1,0 +1,4 @@
+#!/bin/bash
+
+virtual_python="venv/bin/python"
+$virtual_python -m flake8 || exit 1
