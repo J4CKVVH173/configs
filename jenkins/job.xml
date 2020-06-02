@@ -28,8 +28,8 @@
           <ciSkip>true</ciSkip>
           <skipWorkInProgressMergeRequest>true</skipWorkInProgressMergeRequest>
           <setBuildDescription>true</setBuildDescription>
-          <branchFilterType>All</branchFilterType>
-          <includeBranchesSpec></includeBranchesSpec>
+          <branchFilterType>NameBasedFilter</branchFilterType>
+          <includeBranchesSpec>master, develop, demo,</includeBranchesSpec>
           <excludeBranchesSpec></excludeBranchesSpec>
           <sourceBranchRegex></sourceBranchRegex>
           <targetBranchRegex></targetBranchRegex>
