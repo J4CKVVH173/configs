@@ -10,3 +10,4 @@ pycodestyle
 pydocstyle
 pyflakes
 snowballstemmer
+black
