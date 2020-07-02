@@ -1,5 +1,5 @@
 #!/bin/bash
 
 virtual_python="venv/bin/python"
-$virtual_python -m black -S . || exit 1
+$virtual_python -m black -S -l 120 . || exit 1
 $virtual_python -m flake8 || exit 1
