@@ -131,3 +131,6 @@ media
 *.sh
 !scripts/*
 fixtures/coutry_codes.json
+
+# VSCode
+.vscode
