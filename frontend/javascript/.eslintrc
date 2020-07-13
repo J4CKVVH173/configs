@@ -11,6 +11,7 @@
     "node": true
   },
   "rules": {
+    "capitalized-comments": ["error", "always"],
     "class-property/class-property-semicolon": [ "error", "never" ],
     "guard-for-in": "off",
     "import/extensions": "off",
@@ -78,6 +79,7 @@
           "shouldComponentUpdate"
         ]
       }
-    ]
+    ],
+    "spaced-comment": ["error", "always"]
   }
 }
