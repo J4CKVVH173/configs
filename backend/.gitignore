@@ -133,3 +133,5 @@ fixtures/coutry_codes.json
 
 # VSCode
 .vscode
+
+*.rest
