@@ -10,3 +10,5 @@ pycodestyle
 pydocstyle
 pyflakes
 snowballstemmer
+django-cors-headers
+yaml-config-reader
